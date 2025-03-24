@@ -19,17 +19,17 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7542241757:")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6256756166:AAG9xfrFm5KGw4mUxfciZxTbDpYQceYCE78")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "22167428"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "6256756166:AAG9xfrFm5KGw4mUxfciZxTbDpYQceYCE78")
+API_HASH = os.environ.get("API_HASH", "f936053286f724b8a1df69729b28a6af")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002685036831"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "sewxiy")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1674380302"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
@@ -41,7 +41,7 @@ TIME = int(os.environ.get("TIME", "10"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002215102799"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002685036831"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
@@ -54,7 +54,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
+TOKEN = True if os.environ.get('TOKEN', "False") == "True" else False 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.online")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "adabe1c0675be8ffc5ccbc84a9a65bc5a5d3ec69")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
