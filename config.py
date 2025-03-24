@@ -33,7 +33,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1674380302"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://atlas-sample-dataset-load-67e1695a2b2e952ca9e7d6d7:MwcDczqBGaEBGCH6@cluster0.mzfbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
